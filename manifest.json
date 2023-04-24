@@ -18,7 +18,7 @@
         }
     ],
     "icons": {
-        "32": "img/icon.ico"
+        "32": "img/icon.png"
     },
     "manifest_version": 3
 }
