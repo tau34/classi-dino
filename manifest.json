@@ -1,0 +1,24 @@
+{
+    "name": "Adds Chrome dino to Classi",
+    "description": "ClassiにChromeのDinoゲームを追加します。",
+    "version": "1.0",
+    "permissions": [
+        "scripting"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://*.classi.jp/*",
+                "https://englishcommunication.net/*"
+            ],
+            "js": [
+                "JS/jQuery.js",
+                "JS/addDino.js"
+            ]
+        }
+    ],
+    "icons": {
+        "32": "img/icon.ico"
+    },
+    "manifest_version": 3
+}
